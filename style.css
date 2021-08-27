@@ -1,0 +1,78 @@
+header {
+max-width=100%
+}
+body {
+  text-align: center;
+  background-image: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg")
+}
+#description {
+  color: white;
+  font-weight: bold;
+}
+#logo {
+  padding-top: 0px;
+  height: 100px;
+  box-shadow: 2px 2px 5px black;
+  width: 350px;
+  border-radius: 6px;
+}
+#description{
+  font-family: arial black;
+  font-size: 18px;
+}
+span{
+  background-color: #E50914;
+  color: black;
+  
+}
+#survey-form {
+  color: white;
+  width: 22em;
+  height: 460px;
+  background-color: rgb(0, 0, 0, 0.8);
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 35px;
+  display:inline-block;
+      background-color: #black;
+  box-shadow: 0px 0px 2px #ccc;
+  padding: 12px, 15px;
+  transition: transform 0.1s ease;
+}
+.form-group {
+  font-size:20px;
+  display: inline-block;
+  display:block;
+  padding-top: 18px;
+  text-align: center;
+  width: 340px;
+  padding-bottom: 0px;
+}
+#submit {
+  height: 40px;
+  width: 130px;
+  font-size: 20px;
+  border-radius: 25px;
+  color: white;
+  display:inline-block;
+  tex-decoration:none;
+  margin-top: 15px; 
+  background-color: #e6020c;
+  box-shadow: 1px 1px 5px white;
+  padding: 12px, 15px;
+  transition: transform 0.1s ease;
+    
+}
+#submit:active{
+/*   box-shadow: 0px 0px 0px #b20106; */
+  transform: translate(2px, 2px);
+  
+}
+#submit:hover {
+  color: white;
+  background-color: #d7002b;
+}
+.comm{
+  width:250px;
+  height:30px;
+}
