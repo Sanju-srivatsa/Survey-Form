@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Survey-Form</title>
+</head>
+<body>
+  <h1 id="title">
+  <img id="logo" src="https://goodlogo.com/images/logos/netflix_logo_3575.gif">
+  </h1>
+
+  <p id="description">
+    Thank you for signing-up. <br>
+    Please fill your details
+</p>
+<form id="survey-form">
+
+  <div class= "form-inner">
+
+    <div class= "form-group">
+      <label for="name" 
+         value="name-label">Name</label>  
+  <input type= "text" 
+         placeholder="Enter you name" 
+         id="name" 
+         required>
+    </div>
+    
+  <div class="form-group">
+  <label for="email" value="email-label">Email-Id</label>  
+  <input type= "email" 
+         placeholder="Enter you Email-id"
+         id="email"
+         required>
+    </div>
+    
+  <div class="form-group">
+  <label for="age" value="number-label">Age</label>  
+  <input type= "number"
+         placeholder="age" 
+         id="number"
+         min="18"
+         max="65"
+         required>
+    </div>
+   
+    <div class="form-group">
+  <label for="dropdown">Content Type</label>    <select id="dropdown">
+    <option value= "Iron-Man">Movie</option>
+    <option value= "Sherlock">Series</option> 
+      </select>
+    </div>
+    <br>
+    <form-group>
+      <label class="form-group">Genre:</label><br>
+   <label class="genre">
+     <input type="checkbox" 
+             id="firstcheck"
+             name="genre"
+            value="action">
+     Action</label>
+      <label class="genre">
+     <input type="checkbox" 
+             id="secondcheck"
+             name="genre"
+            value="comedy">
+     comedy</label>
+      <label class="genre">
+     <input type="checkbox" 
+             id="thirdcheck"
+             name="genre"
+            value="romance">
+     Romance</label>
+    </form-group>
+    <br>
+<br>    
+    <form-group>
+   <label class="form-group">Location:</label><br>
+   <label id="location">
+     <input type="radio" 
+             id="radio1"
+             name="location">
+     USA</label>
+      <label class="location">
+     <input type="radio" 
+             id="radio2"
+             name="location">
+     CANADA</label>
+      <label class="location">
+     <input type="radio" 
+             id= "radio3"
+             name="location">
+     INDIA</label><br>
+    </form-group>
+         <div class="form-group">
+      <label id="feed-label">Feedback</label>
+    </div>
+    
+    <div class="space-sec">
+    <textarea  class="comm" placeholder="comments..."></textarea>
+    </div>
+   
+    </div>
+</form> 
+<br>
+  <input type="submit" id="submit">
+
+</body>
+</html>
